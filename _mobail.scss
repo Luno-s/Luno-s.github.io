@@ -118,7 +118,7 @@
     }
 
     .product {
-        width: 342px;
+        width: auto;
         height: 349px;
 
         &-content {
@@ -214,7 +214,7 @@
     .link {
         &-box {
             margin-bottom: 0;
-            padding-top: 0
+            padding-top: 36px;
         }
 
     }
