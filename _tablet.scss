@@ -1,0 +1,57 @@
+// Стили для планшета
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 786px/2);
+        padding-right: calc(50% - 786px/2);
+    }
+
+    .for {
+        &__item {
+            height: 268px;
+        }
+    }
+
+    .product-content {
+        column-gap: 29px;
+        row-gap: 39px;
+
+        &-catalog, &-cart{
+            row-gap: 30px;
+        }
+    }
+
+    .link-box {
+        padding-top: 32px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .cart {
+        display: flex;
+        margin-top: 66px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 64px;
+
+        &__form {
+            width: 376px;
+        }
+
+        &__btn-black {
+            background: $color-text-main;
+            color: $color-text;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+
+
